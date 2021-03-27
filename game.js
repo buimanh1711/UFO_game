@@ -136,7 +136,7 @@ class Game{
             setTimeout(()=>{
                 this.checkBullet++;
                         this.loop();
-                    },30);
+                    },15);
         }
         else{
             this.die.play();
